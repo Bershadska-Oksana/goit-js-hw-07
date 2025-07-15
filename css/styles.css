@@ -9,15 +9,15 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px; /* або 32px, якщо у Figma інший відступ */
-  list-style: none;
+  gap: 40px;
+  /list-style: none;
   padding: 0;
-  max-width: 1200px; /* підлаштуй під макет */
+  max-width: 1200px;
 }
 
 .gallery li {
   overflow: hidden;
-  border-radius: 8px; /* заокруглення якщо треба */
+  border-radius: 8px;
 }
 
 .gallery img {
