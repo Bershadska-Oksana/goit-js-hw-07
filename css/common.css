@@ -10,7 +10,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  /list-style: none;
+  list-style: none;
   padding: 0;
   max-width: 1200px;
 }
